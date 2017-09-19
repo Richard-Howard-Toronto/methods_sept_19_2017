@@ -5,7 +5,7 @@
 
 def F_to_C (farenheit)
 
-  puts "enter a temperature in farenheit"
+  puts "please enter a temperature in farenheit"
   farenheit=gets.chomp.to_i
   farenheit = farenheit.to_i  #just to be sure
   celsius = (farenheit - 32) * 5/9
